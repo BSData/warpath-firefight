@@ -1,0 +1,3987 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f181-1afd-cc7d-2bf4" name="The Plague" book="Warpath: Firefight Rulebook" page="134" revision="1" battleScribeVersion="2.01" authorName="Ben Edwards" authorContact="BAE2 (Github)" gameSystemId="961d-4085-6c41-e300" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="bcac-42a3-c590-687e" name="3rd Gens Unit (5)" book="Warpath: Firefight Rulebook" page="136" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="52c4-5170-0585-75f0" name="3rd Gens" book="Warpath: Firefight Rulebook" page="136" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="5"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="5+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="5+"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="4+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="1"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c86c-7367-d678-09a7" name="New CategoryLink" hidden="false" targetId="c566-b1d1-6463-db4c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b74e-7dca-50f0-fd27" name="Additional 3rd Gens" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f840-4679-ee23-6d68" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="9.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4673-2de1-866b-7a2e" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="1aa3-18ca-2f31-0b6f" name="Rifles" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="9e5d-30a5-8bc7-d263" name="Rifles" hidden="false" targetId="48dd-c451-8a36-d7c0" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="136">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e61-c136-f466-72f6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4126-233c-749c-1bb4" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="add8-e2a5-911d-e770" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="285b-cb24-5b61-71e5" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="136">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c395-4aa3-9088-cf1e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f39b-0339-9330-1b92" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3464-8645-4a36-4bbe" name="Equipment Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="a041-df6c-60f2-93a3" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="bcac-42a3-c590-687e" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="17e8-72d2-656a-f1b6" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a041-df6c-60f2-93a3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="c527-79e7-d2d9-d0f4" name="Flamethrower (Replace 1 Rifle)" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a4c1-8c1e-d626-b484" name="Flamethrower" hidden="false" targetId="7e34-eb95-dd59-2646" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="136">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="e9ac-62fd-d08e-2361" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Blast (2D3)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="a7ff-116f-089f-c39e" name="Volatile" hidden="false" targetId="cbee-7ff5-6692-c18b" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Volatile (3+)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="e6ed-bd23-ecbd-83c3" name="Saturation" hidden="false" targetId="6f83-e6a9-c707-79a5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="359d-59e8-2a4d-1e27" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b658-04d6-f66d-66d7" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="25.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a2cb-18e0-bfd8-0276" name="Grenade Launcher (Replace 1 Rifle)" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b7e9-dbfe-c1a1-69fe" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Blast (D3)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="7f8c-b912-a15f-aa7b" name="Grenade Launcher" hidden="false" targetId="7025-759c-b25c-fd91" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="136">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="790d-7723-3afc-10a9" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="5.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4c70-2503-b641-1c6b" name="HMG (Replace 1 Rifle)" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0c96-a109-3809-e6f3" name="Suppressive Fire (x)" hidden="false" targetId="cb19-f40b-1721-d0f0" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Suppressive Fire (1)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="6abe-8c65-1140-cc77" name="HMG" hidden="false" targetId="c062-706e-88e7-b2d0" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="136">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8092-6542-8339-22f4" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="15.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="17e8-72d2-656a-f1b6" name="Mortar (Replace 2 Rifles)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a884-3da7-0fce-57d0" name="Mortar" hidden="false" targetId="578b-294b-4f0d-0d2a" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="136">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="ea84-488f-aee8-a562" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Blast (D6)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="13e0-f0db-e52e-cd37" name="Suppressive Fire (x)" hidden="false" targetId="cb19-f40b-1721-d0f0" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Suppressive Fire (2)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="6821-2422-f70d-07fb" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="1d44-0f05-55fd-ca41" name="Heavy Firepower" hidden="false" targetId="5112-40e8-57a4-8182" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="812d-472f-50a4-7278" name="Indirect" hidden="false" targetId="6b6b-19f4-3c20-b3de" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaed-11aa-c2c0-1c6c" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="30.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="fb8c-f936-55b0-bb06" name="Personnel Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="5285-bc5b-1a8f-0ecf" name="Alpha" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="0ba3-00d3-bc46-9dbc" name="Leadership" hidden="false" targetId="aa26-40f5-b717-7354" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="adc7-7304-e44d-21ce" name="Command (x)" hidden="false" targetId="96a2-514a-252e-95a6" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Command (1)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="5285-bc5b-1a8f-0ecf" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="85cd-8f1f-fb3e-2ddb" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers>
+                <modifier type="set" field="name" value="Lieutenant">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="5285-bc5b-1a8f-0ecf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="85cd-8f1f-fb3e-2ddb" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70cd-b0c2-d01f-ff81" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="85cd-8f1f-fb3e-2ddb" name="Upgrade to Lieutenant" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cb4-dea2-b821-b246" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="15.0"/>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks>
+                <entryLink id="526a-dd5e-76ce-3def" name="Commander Upgrades" hidden="false" targetId="ee8b-69cf-4a01-d8ab" type="selectionEntryGroup">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3b8-6ebb-327a-45c4" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="15.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="50.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3db3-de9d-9a2d-d5f3" name="3rd Gens Mortar Battery (6)" book="Warpath: Firefight Rulebook" page="136" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5fba-5800-daee-5ffe" name="3rd Gens" book="Warpath: Firefight Rulebook" page="136" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="5"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="5+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="5+"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="4+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="1"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="ec0b-ba7a-bb46-03f0" name="New CategoryLink" hidden="false" targetId="c566-b1d1-6463-db4c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="07dd-3ea2-6e1a-3814" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="c64a-086b-4f5e-1051" name="Rifles" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="54d0-ed5e-d2f5-18fa" name="Rifles" hidden="false" targetId="48dd-c451-8a36-d7c0" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <repeats/>
+                      <conditions>
+                        <condition field="selections" scope="3db3-de9d-9a2d-d5f3" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="06be-4a13-3860-051b" type="equalTo"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="page" value="136">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="346e-91cf-8183-1f77" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c709-2e5b-56a0-8abb" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="70ac-ee2f-f5d1-487c" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5f1e-947f-08a5-75b8" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="136">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d32-5e47-4819-ec3e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5be-4fd8-082b-fb1c" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="92f8-1c54-7e9c-90cf" name="Equipment Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51e5-3784-90e3-02f3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="06be-4a13-3860-051b" name="Mortar (Replace 2 Rifles)" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c948-b6dc-f9ae-bc12" name="Mortar" hidden="false" targetId="578b-294b-4f0d-0d2a" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="136">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="13c1-7a4a-d9ca-c4bf" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Blast (D6)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="88ea-bb1f-bfd6-1279" name="Suppressive Fire (x)" hidden="false" targetId="cb19-f40b-1721-d0f0" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Suppressive Fire (2)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="d922-65c1-7bbf-a258" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="21a2-98a7-6f4e-dddc" name="Heavy Firepower" hidden="false" targetId="5112-40e8-57a4-8182" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="0a96-c466-b0d7-8a57" name="Indirect" hidden="false" targetId="6b6b-19f4-3c20-b3de" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06ea-b7a7-85cb-263e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="30.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="60.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e142-deb8-a1b5-ee50" name="3rd Gens Specialists Unit (5)" book="Warpath: Firefight Rulebook" page="137" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="67f9-ea88-6e17-13d2" name="3rd Gens" book="Warpath: Firefight Rulebook" page="136" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="5"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="5+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="5+"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="4+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="1"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4622-b252-4f65-67c1" name="New CategoryLink" hidden="false" targetId="c566-b1d1-6463-db4c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8370-4a1e-97ae-96ca" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="7ee0-787e-445e-354c" name="Rifles" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ef85-06ba-1b04-77e9" name="Rifles" hidden="false" targetId="48dd-c451-8a36-d7c0" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="137">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9967-8690-c881-3383" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4fb-2799-f84b-2af8" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9841-6e4c-3a23-85cb" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="6e18-da51-dfee-f2f2" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="137">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17e3-446b-c0cf-76fa" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11e8-f0c4-9703-fb8a" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b570-8363-2987-9faf" name="Equipment Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb98-4f95-02c6-6cc3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="f47c-a301-4fa1-9fb0" name="Flamethrower (Replace 1 Rifle)" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d72a-57c3-ef27-d94e" name="Flamethrower" hidden="false" targetId="7e34-eb95-dd59-2646" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="137">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="ca6c-f0cf-58d2-b7d7" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Blast (2D3)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="7d02-f722-fe10-0e54" name="Volatile" hidden="false" targetId="cbee-7ff5-6692-c18b" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Volatile (3+)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="c7c1-0f09-31be-e23f" name="Saturation" hidden="false" targetId="6f83-e6a9-c707-79a5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="ed17-01c0-862f-cb64" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f299-9a5c-656b-4a9f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="25.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c9da-f472-696b-31aa" name="Grenade Launcher (Replace 1 Rifle)" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a928-98c0-7f68-9511" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Blast (D3)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="3a12-4705-1458-c9be" name="Grenade Launcher" hidden="false" targetId="7025-759c-b25c-fd91" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="137">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e03-7e1b-a591-35ac" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="5.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3848-02e6-e93c-d792" name="HMG (Replace 1 Rifle)" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="136e-c583-fbba-379f" name="Suppressive Fire (x)" hidden="false" targetId="cb19-f40b-1721-d0f0" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Suppressive Fire (1)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="5d71-6930-5298-5464" name="HMG" hidden="false" targetId="c062-706e-88e7-b2d0" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="137">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f617-5850-b0a9-36d1" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="15.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="50.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c7c4-3d5b-848c-c723" name="Plague Beasts Unit (6)" book="Warpath: Firefight Rulebook" page="137" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="e9bf-791f-6aec-bb00" name="Plague Beasts (Dogs or Swarms)" book="Warpath: Firefight Rulebook" page="137" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="7"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="4+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="-"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="4+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="1"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="0d13-7de0-6449-801c" name="New CategoryLink" hidden="false" targetId="c566-b1d1-6463-db4c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2f35-124e-ec2c-a294" name="Additional Beasts" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1bb-2d17-b716-c31c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="13.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="47fc-be8f-8f33-6ec0" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="a19d-86c8-fae7-2aed" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="ce0a-1048-c228-7b90" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="137">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="b494-0fb7-bcca-f3b4" value="1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09f1-73c6-9c77-bd2a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6748-f481-7412-7432" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="84.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9539-0bab-6efc-22b5" name="2nd Gen &apos;Bursters&apos; Unit (2)" book="Warpath: Firefight Rulebook" page="138" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f068-5415-fd00-7f15" name="2nd Gen &apos;Bursters&apos;" book="Warpath: Firefight Rulebook" page="138" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="5"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="4+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="-"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="5+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="2"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="ff86-350c-114a-85f8" name="Tenacious" hidden="false" targetId="5a17-b542-673d-9b5f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6873-45bc-131d-c769" name="Unstable" hidden="false" targetId="c396-97db-37df-e2d0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="672c-637a-5b61-ae6b" name="Unflinching" hidden="false" targetId="ec84-c518-606b-c55b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="319d-c9cf-6b6c-47c4" name="Infection" hidden="false" targetId="4268-4218-10f7-cf2b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="d08e-d4b5-2d00-1f4c" name="New CategoryLink" hidden="false" targetId="8227-94ec-1a3d-3a20" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8524-de47-8376-ccd3" name="Additional Bursters" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9430-67d9-1cbb-c3e7" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="22.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1204-8e41-473e-c420" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="bb41-c273-0f57-762d" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5694-400d-d6b9-c151" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="138">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="b494-0fb7-bcca-f3b4" value="1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b87-672e-deb6-0c64" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e82-15cc-235c-7616" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="50.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="89eb-1199-8987-2268" name="2nd Gen &apos;Leapers&apos; Unit (2)" book="Warpath: Firefight Rulebook" page="138" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="a31d-bc52-0441-5b0b" name="2nd Gen &apos;Leapers&apos;" book="Warpath: Firefight Rulebook" page="138" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="7"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="3+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="-"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="5+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="2"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="516c-6ef1-0030-4329" name="Unflinching" hidden="false" targetId="ec84-c518-606b-c55b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="6c2b-d25c-2788-9c0b" name="Reckless Advance" hidden="false" targetId="061c-3835-284c-099d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="176e-67f8-7155-25fd" name="New CategoryLink" hidden="false" targetId="8227-94ec-1a3d-3a20" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2187-8b6d-c729-d129" name="Additional Leapers" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e66c-83ab-54d3-4e78" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="30.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="228b-6f91-78aa-1ab5" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="a037-544f-203f-ce64" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="467c-6830-8e73-b480" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="138">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="b494-0fb7-bcca-f3b4" value="1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="54fa-c32f-5bc5-ae7c" value="3">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19f5-1269-52c6-5250" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdce-aad9-ff26-a677" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="66.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e655-3a4d-2329-d8e8" name="Plague Zombies Unit (10)" book="Warpath: Firefight Rulebook" page="139" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="cd6d-8b9f-8dcb-5375" name="Plague Zombies" book="Warpath: Firefight Rulebook" page="139" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="5"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="5+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="-"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="3+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="1"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="311d-c6c0-b85f-cf31" name="Unflinching" hidden="false" targetId="ec84-c518-606b-c55b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="390e-4ad1-ea1b-8433" name="Expendable" hidden="false" targetId="7773-aa9f-1a77-2fd8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="b06a-4005-7e01-584c" name="New CategoryLink" hidden="false" targetId="c566-b1d1-6463-db4c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e975-d14e-a5a6-7d53" name="Additional Zombies" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f539-9cb9-56dc-a600" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="6.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9885-3f88-ad55-96a3" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="7d88-ed5d-e78d-5043" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="503f-a312-34c6-fd18" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="139">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="54fa-c32f-5bc5-ae7c" value="1">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbd0-f9ec-13d1-f775" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2296-1678-d073-54d4" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="70.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0e0-9712-6f07-b3aa" name="Aberration" book="Warpath: Firefight Rulebook" page="139" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d63d-bb29-28f4-a926" name="Aberration" book="Warpath: Firefight Rulebook" page="139" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="3"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="6"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="2+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="-"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="6+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="3"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="50dd-bcd0-cee6-2055" name="Bulky" hidden="false" targetId="a046-5d7f-bf8a-1c9d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="83d0-4931-c123-709b" name="Expendable" hidden="false" targetId="7773-aa9f-1a77-2fd8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8000-f9e2-82fd-5ef5" name="Infection" hidden="false" targetId="4268-4218-10f7-cf2b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a535-2559-06ba-bbc3" name="Reckless Advance" hidden="false" targetId="061c-3835-284c-099d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d903-6ad1-613c-86bb" name="Unflinching" hidden="false" targetId="ec84-c518-606b-c55b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="41ae-a217-ed04-da3a" name="New CategoryLink" hidden="false" targetId="ff2f-9876-341a-8ab3" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="cc00-10e4-23a9-6e6d" name="New CategoryLink" hidden="false" targetId="2839-c510-0fdb-2a7d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7cb6-37de-d627-8d46" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="ce49-a37c-eb04-0b7a" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fe6e-5f3e-0263-9886" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="139">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="b494-0fb7-bcca-f3b4" value="4">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="54fa-c32f-5bc5-ae7c" value="6">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a91f-c988-f163-0011" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aead-920a-ab56-5b78" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="75.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4189-0c03-d657-30bc" name="TAD-65 Hornet Dropship" book="Warpath: Firefight Rulebook" page="140" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="8263-aab1-aeff-084c" name="TAD-65 Hornet Dropship" book="Warpath: Firefight Rulebook" page="140" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="3"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="14"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="-"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="5+"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="8+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="4"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="65c2-9ad9-293b-70fd" name="Anti-Grav" hidden="false" targetId="850b-cdb1-02f2-3e0e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8241-8aa4-81b0-6138" name="Transport (x)" hidden="false" targetId="bcb5-25cc-df59-2041" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Transport (15)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2add-2119-30f6-aefe" name="New CategoryLink" hidden="false" targetId="9e6b-3f79-42ec-4d7b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="03e1-3e3e-6e0f-4bdc" name="Equipment Pattern" hidden="false" collective="false" defaultSelectionEntryId="63e5-ba89-40b3-cfd8">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff9-ec39-4eb0-2916" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9ff-59dd-f7e1-1dea" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="63e5-ba89-40b3-cfd8" name="Rotary Cannon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="aba9-b117-bbe3-6c69" name="Rotary Cannon" hidden="false" targetId="6019-464a-6a18-1a2a" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="140">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="a149-a4b0-cb68-df9f" name="Suppressive Fire (x)" hidden="false" targetId="cb19-f40b-1721-d0f0" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Suppressive Fire (1)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c669-0f94-4912-eafa" name="Laser Cannon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="09ac-ad56-ac2e-b30e" name="Laser Cannon" hidden="false" targetId="c453-852c-1ec5-12fb" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="140">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="ff01-0c95-4a59-c6de" name="Anti-Tank" hidden="false" targetId="f8f3-271f-9d1f-0ad5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="56ec-dd22-08b8-483d" name="Heavy Firepower" hidden="false" targetId="5112-40e8-57a4-8182" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="cc47-e12b-7f86-a433" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="515d-1459-3dca-a52f" name="Missile Launcher" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="3dd5-f191-e320-cba9" name="Missile Launcher" hidden="false" targetId="80a1-1900-d721-1b7c" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="140">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="5e00-acd5-1b62-fc9f" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="name" value="Blast (D3+1)">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="7cd0-4d9a-f06f-346b" name="Heavy Firepower" hidden="false" targetId="5112-40e8-57a4-8182" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+                <infoLink id="bb8b-4c49-3b16-07e0" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b4ca-c126-a4a9-a9f1" name="Equipment Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca25-de13-2f20-7f45" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="183c-9622-0af1-41cf" name="Explosive Payloads" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="c5cc-6af5-a077-ba33" name="Explosive Payload" hidden="false" targetId="1f2f-0a45-c978-c515" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b39-6071-7b14-2d64" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="10.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="1.0"/>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="190.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f677-d8ff-73c1-bd79" name="Mule Transport" book="Warpath: Firefight Rulebook" page="140" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="af5c-417d-964d-b275" name="Mule Transport" book="Warpath: Firefight Rulebook" page="140" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="3"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="10"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="4+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="5+"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="7+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="3"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="dfdd-43c6-8d0b-dff8" name="Open-Topped" hidden="false" targetId="ce8f-0e2a-c4b7-5303" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7a03-57bc-4384-2470" name="Transport (x)" hidden="false" targetId="bcb5-25cc-df59-2041" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Transport (10)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="6c0a-58a0-e28a-b2cd" name="New CategoryLink" hidden="false" targetId="9e6b-3f79-42ec-4d7b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cd96-49c8-471b-503b" name="Equipment Pattern" hidden="false" collective="false" defaultSelectionEntryId="bdb2-3390-f087-b028">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ff5-1b6d-e938-fa2d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a0f-7d60-8197-c838" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="bdb2-3390-f087-b028" name="Autocannon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="9965-c19e-1417-c8c3" name="Autocannon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="c151-42fa-efb4-1dcd" name="Autocannon" hidden="false" targetId="99a0-8b63-4c20-8b0d" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="c5f2-8050-3ee7-5f1d" value="Fixed (Front), Heavy Firepower, Suppressive Fire (1)">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="page" value="140">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="8836-a5f8-dcf4-31a7" name="Fixed (x)" hidden="false" targetId="6f43-059b-72bf-e448" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="name" value="Fixed (Front)">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="ec4e-f260-0ec4-0575" name="Heavy Firepower" hidden="false" targetId="5112-40e8-57a4-8182" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="7ca9-c53b-a3c5-8108" name="Suppressive Fire (x)" hidden="false" targetId="cb19-f40b-1721-d0f0" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="name" value="Suppressive Fire (1)">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b37-9247-3215-46d1" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0957-82b8-2bb1-89c5" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="002c-4e33-57fc-83e5" name="Assault Weaponry" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="d5d2-3124-5a52-2001" name="Assault Weaponry" hidden="false" targetId="c133-be41-6787-3ba4" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="b494-0fb7-bcca-f3b4" value="1">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="page" value="140">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="54fa-c32f-5bc5-ae7c" value="4">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="147f-1073-5fcc-38e3" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbaa-f8b6-7526-2f4c" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0504-e47b-21de-3f6e" name="Laser Cannon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="aa18-2483-fcc8-ea21" name="Assault Weaponry" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="03db-db9c-5979-7626" name="Assault Weaponry" hidden="false" targetId="c133-be41-6787-3ba4" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="b494-0fb7-bcca-f3b4" value="1">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="page" value="140">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="54fa-c32f-5bc5-ae7c" value="4">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6dbf-d91e-9a67-4698" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9b2-3688-62a9-cd7f" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fd2f-98ee-e936-c8a0" name="Laser Cannon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="c7db-dc06-3765-4b44" name="Laser Cannon" hidden="false" targetId="c453-852c-1ec5-12fb" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="c5f2-8050-3ee7-5f1d" value="Anti-Tank, Fixed (Front), Heavy Firepower, Slow Reload">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                        <modifier type="set" field="page" value="140">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="160a-64d5-a2d3-ae0b" name="Fixed (x)" hidden="false" targetId="6f43-059b-72bf-e448" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="name" value="Fixed (Front)">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="6baf-f3a4-68a6-ae4d" name="Heavy Firepower" hidden="false" targetId="5112-40e8-57a4-8182" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="c9fd-ba12-dade-ed41" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="2b18-d16a-0939-3c40" name="Anti-Tank" hidden="false" targetId="f8f3-271f-9d1f-0ad5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95f3-2871-8333-1b78" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e13c-3dcd-a175-eb6b" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="cd49-119a-2c6b-ab99" name="Equipment Upgrades" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6745-da1d-0e2e-c4a0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="32e8-40e8-a2d5-e111" name="Explosive Payloads" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="cc8e-5e05-5427-d0eb" name="Explosive Payload" hidden="false" targetId="1f2f-0a45-c978-c515" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4336-ded1-eec8-6c7b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="10.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="140.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bea8-aace-73bf-5dcd" name="Strider" book="Warpath: Firefight Rulebook" page="141" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3336-0925-e3f1-0aba" name="Strider" book="Warpath: Firefight Rulebook" page="141" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="3"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="6"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="4+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="5+"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="7+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="4"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="96ee-e6d9-d52a-586d" name="New CategoryLink" hidden="false" targetId="9e6b-3f79-42ec-4d7b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="391d-7315-ab03-f763" name="Equipment Pattern" hidden="false" collective="false" defaultSelectionEntryId="f886-d120-b6ed-6011">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3297-0da9-3687-b82f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff06-e8b3-3626-e025" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="f886-d120-b6ed-6011" name="Strider" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="583c-12c9-c257-000a" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="fb94-5fa6-2b03-260e" name="Heavy Burst Laser" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="5c13-3cd9-c300-5293" name="Heavy Burst Laser" hidden="false" targetId="5649-10ea-193c-85bf" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="141">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="75e6-faab-adc2-cbcc" name="Suppressive Fire (x)" hidden="false" targetId="cb19-f40b-1721-d0f0" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Suppressive Fire (1)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3a8-24cd-8305-f392" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78b4-d6b8-40d7-c41e" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="1d51-32ac-1a3c-74a7" name="Assault Weaponry" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="a4f0-c367-5af2-1d84" name="Assault Weaponry" hidden="false" targetId="c133-be41-6787-3ba4" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="54fa-c32f-5bc5-ae7c" value="2">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="b494-0fb7-bcca-f3b4" value="1">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="page" value="141">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d69-16e4-4944-ab33" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a35-ce04-e128-9d56" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="befd-7fd7-ca52-0a56" name="Urban Assault Pattern" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="1d0b-99b0-2987-8660" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="ce2c-2dbd-1ed3-bcbc" name="Heavy Flamethrower" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="30ff-e22e-7268-69d1" name="Flamethrower" hidden="false" targetId="7e34-eb95-dd59-2646" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="141">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="a53d-ca19-42fb-9a5b" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Blast (2D3+1)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="c62e-60bb-6f36-8dbb" name="Saturation" hidden="false" targetId="6f83-e6a9-c707-79a5" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="fcb8-8e35-f99e-c674" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="252f-148a-289a-e88c" name="Volatile" hidden="false" targetId="cbee-7ff5-6692-c18b" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="name" value="Volatile (2+)">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e0e-f280-93e2-3a55" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f787-c2da-7352-6d3e" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="bf95-56b9-31b8-c1ca" name="Chainsaw" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="a615-5cb0-ae2b-6826" name="Chainsaw" hidden="false" targetId="a797-651b-7894-d23d" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="141">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fe9-d137-7922-f639" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca14-daa8-4ccb-f890" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="15.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6def-19cd-abab-95c3" name="Polaris Pattern" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="18aa-0979-f25e-47af" name="Equipment" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="ca1b-d305-d2a7-2c01" name="Polaris Cannon" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="842d-b40e-8442-f977" name="Polaris Cannon" hidden="false" targetId="a89f-a4be-4a03-7ed7" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="page" value="141">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="f4a5-4abd-741a-6227" name="Anti-Tank" hidden="false" targetId="f8f3-271f-9d1f-0ad5" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                        <infoLink id="c976-9258-aa4a-786d" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bd4-2967-e356-74a2" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="430a-6635-a735-2989" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d491-6d67-c9b8-3c80" name="Assault Weaponry" hidden="false" collective="false" type="upgrade">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks>
+                        <infoLink id="a6e8-ba1c-516f-49ad" name="Assault Weaponry" hidden="false" targetId="c133-be41-6787-3ba4" type="profile">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers>
+                            <modifier type="set" field="54fa-c32f-5bc5-ae7c" value="2">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="b494-0fb7-bcca-f3b4" value="1">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                            <modifier type="set" field="page" value="141">
+                              <repeats/>
+                              <conditions/>
+                              <conditionGroups/>
+                            </modifier>
+                          </modifiers>
+                        </infoLink>
+                      </infoLinks>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6e2-7e57-f50f-f342" type="max"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4736-c758-393d-325c" type="min"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="135.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f31-c9f2-adbc-51b2" name="Lancer Battle Tank" book="Warpath: Firefight Rulebook" page="141" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7f01-1a34-d294-57ce" name="Lancer Battle Tank" book="Warpath: Firefight Rulebook" page="141" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="3"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="9"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="4+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="5+"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="9+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="5"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="02d0-e675-3a35-3584" name="New CategoryLink" hidden="false" targetId="9e6b-3f79-42ec-4d7b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4c6b-bca1-63fa-3613" name="Equipment Pattern" hidden="false" collective="false" defaultSelectionEntryId="513a-8739-320f-925c">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07d2-be32-27d7-8145" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79b3-5f0c-6972-db73" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="513a-8739-320f-925c" name="Heavy Laser Cannon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="427e-9613-69b7-7080" name="Heavy Laser Cannon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="2f13-703d-4b2d-9ea6" name="Heavy Laser Cannon" hidden="false" targetId="032b-5caf-3e82-23b6" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="page" value="141">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="1732-8e54-c198-cfe1" name="Anti-Tank" hidden="false" targetId="f8f3-271f-9d1f-0ad5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                    <infoLink id="590c-b07a-9bcb-1b3e" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c121-1b06-6191-37bb" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9d5-4017-cde7-8851" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b5f2-8ae9-c1ce-8367" name="Laser Rifles" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="07d7-9ad5-48de-0327" name="Laser Rifles" hidden="false" targetId="88f8-fb7d-b060-5d40" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="page" value="141">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d18f-b715-aefc-36f2" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ef-1fe8-efd6-8a04" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="275c-3fed-098b-6c94" name="Assault" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="cb76-a798-1dfc-932b" name="Assault" hidden="false" targetId="0567-272d-79b4-d007" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="page" value="141">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4692-56f1-4e6d-c887" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a1c-b553-ed2c-b099" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="20ec-e63b-e579-f3f8" name="Heavy Autocannon" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="ff5e-0346-0cd8-da49" name="Heavy Autocannon" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="be0f-60de-beff-c405" name="Heavy Autocannon" hidden="false" targetId="892c-2415-b6e0-079b" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="page" value="141">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="22ac-02b3-904e-a116" name="Suppressive Fire (x)" hidden="false" targetId="cb19-f40b-1721-d0f0" type="rule">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="name" value="Suppressive Fire (2)">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="095a-0976-bf3b-1df0" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a87f-5288-24ba-fc84" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5301-0697-d3a2-de09" name="Laser Rifles" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="79e4-1bfe-1071-9e0b" name="Laser Rifles" hidden="false" targetId="88f8-fb7d-b060-5d40" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="page" value="141">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90aa-2efc-534d-82f4" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3760-bb3f-366f-b4b8" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="04e5-1190-78e9-233a" name="Assault" hidden="false" collective="false" type="upgrade">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks>
+                    <infoLink id="4b0f-184d-1a12-d429" name="Assault" hidden="false" targetId="0567-272d-79b4-d007" type="profile">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers>
+                        <modifier type="set" field="page" value="141">
+                          <repeats/>
+                          <conditions/>
+                          <conditionGroups/>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b838-5fbd-59f9-3f70" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4570-9abe-8880-4240" type="min"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs>
+                    <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="15.0"/>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="205.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e80e-5871-7af8-40fd" name="Teraton" book="Warpath: Firefight Rulebook" page="142" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="19a0-8a9f-bc5d-573e" name="Teraton" book="Warpath: Firefight Rulebook" page="142" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="5"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="4+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="-"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="7+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="3"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0f48-b100-1e3b-4725" name="Unflinching" hidden="false" targetId="ec84-c518-606b-c55b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="478b-11e9-286e-fd2f" name="Command (x)" hidden="false" targetId="96a2-514a-252e-95a6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Command (2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="5eba-6c05-cf85-14ce" name="New CategoryLink" hidden="false" targetId="8227-94ec-1a3d-3a20" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="9c6c-359a-a047-7399" name="New CategoryLink" hidden="false" targetId="2839-c510-0fdb-2a7d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2fb3-15f7-9055-c41f" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="8282-7a28-58cd-3b54" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fed4-de0c-a277-40b4" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="142">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="b494-0fb7-bcca-f3b4" value="3">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf8-3f95-45a4-f7e0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c12-4fd3-4e63-afe3" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="90.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="24e4-b602-9994-a5bf" name="1st Gen Mutant" book="Warpath: Firefight Rulebook" page="141" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="ab40-deba-1a22-8303" name="1st Gen Mutant" book="Warpath: Firefight Rulebook" page="141" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="5"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="3+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="-"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="7+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="5"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="3eb1-161c-8ce4-858a" name="Command (x)" hidden="false" targetId="96a2-514a-252e-95a6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Command (4)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e902-94ab-d05e-04de" name="Unflinching" hidden="false" targetId="ec84-c518-606b-c55b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="f797-7faf-91e0-2c82" name="Inspiring" hidden="false" targetId="6a9f-8722-5a9a-c1a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="8eb7-78e6-01e5-d8d5" name="Infection" hidden="false" targetId="4268-4218-10f7-cf2b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c8f8-d45b-3347-39b7" name="New CategoryLink" hidden="false" targetId="8227-94ec-1a3d-3a20" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7ab6-b098-658c-9d6c" name="New CategoryLink" hidden="false" targetId="2839-c510-0fdb-2a7d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6fb1-5d00-981b-2b37" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="2304-0b11-a49f-1cc7" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="1d75-c7ea-1740-1c2d" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="142">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="b494-0fb7-bcca-f3b4" value="3">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="54fa-c32f-5bc5-ae7c" value="4">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8387-6d63-0eee-b2fb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e42b-3d59-8cb6-2863" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="150.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="551b-d081-9b63-25db" name="Subject 901" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f758-ba8e-bdb9-fd9c" name="Subject 901" book="Warpath: Firefight Rulebook" page="143" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="2"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="5"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="3+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="-"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="6+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="2"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="6d6b-2d01-9db9-c63f" name="Unflinching" hidden="false" targetId="ec84-c518-606b-c55b" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7636-c0a6-566f-ec71" name="Protection (x)" hidden="false" targetId="445e-000b-31fb-92a2" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Protection (Regular Infantry)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4b05-25be-1a09-5f2e" name="Command (x)" hidden="false" targetId="96a2-514a-252e-95a6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="name" value="Command (2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="8baf-afa6-8ce1-b4b2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c5f7-03db-fc5a-bd01" name="New CategoryLink" hidden="false" targetId="2839-c510-0fdb-2a7d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="fe46-5c8a-f953-4ca0" name="New CategoryLink" hidden="false" targetId="c566-b1d1-6463-db4c" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2265-7874-7d0d-9f67" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="339c-5b92-0c89-9772" name="Teeth and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f35e-eb59-938c-1aee" name="Teeth and Claws" hidden="false" targetId="a6fd-d2ca-f07e-8275" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="143">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="b494-0fb7-bcca-f3b4" value="2">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                    <modifier type="set" field="54fa-c32f-5bc5-ae7c" value="3">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8d8-f136-b9a8-5112" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc14-4ac2-6b18-8c44" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="65.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a623-764f-8f74-8393" name="Murderbirds Unit (5)" book="Warpath: Firefight Rulebook" page="137" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="888e-c45f-298e-ae37" name="Murderbirds" book="Warpath: Firefight Rulebook" page="137" hidden="false" profileTypeId="a154-7310-742d-79c2" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Height" characteristicTypeId="614b-945c-f241-be21" value="3"/>
+            <characteristic name="Spd" characteristicTypeId="57fb-47e5-454f-010d" value="10"/>
+            <characteristic name="Mel" characteristicTypeId="22f8-2838-c2f7-a63c" value="5+"/>
+            <characteristic name="Acc" characteristicTypeId="5ccf-0565-9b70-d0a1" value="-"/>
+            <characteristic name="Def" characteristicTypeId="707e-1795-1ba8-ce28" value="3+"/>
+            <characteristic name="Res" characteristicTypeId="6314-9a85-446c-b72e" value="1"/>
+            <characteristic name="Ner" characteristicTypeId="7d58-a7d8-4cab-d5ef" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="8cce-356b-aee8-0fab" name="Aerial Deployment" hidden="false" targetId="7899-14fe-376b-3593" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="fbce-232e-ecee-eca7" name="Anti-Grav" hidden="false" targetId="850b-cdb1-02f2-3e0e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="b814-d7af-fe60-2ac1" name="Bulky" hidden="false" targetId="a046-5d7f-bf8a-1c9d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="71d5-3cf4-6a0d-bda5" name="Tenacious" hidden="false" targetId="5a17-b542-673d-9b5f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="be3e-325a-5587-e466" name="New CategoryLink" hidden="false" targetId="c566-b1d1-6463-db4c" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7430-bd4d-e0f0-4b14" name="Additional Murderbirds" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69c3-1779-96b8-7577" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="12.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="feec-a63a-ee17-6130" name="Equipment" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="146c-c9c4-9915-6229" name="Beaks and Claws" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d082-f232-fdd3-ff40" name="Beaks and Claws" hidden="false" targetId="6127-81c3-1606-9b17" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="page" value="137">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f443-65e9-dd4a-b8b1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90ba-426f-7dd6-e9a1" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="65.0"/>
+        <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="ee8b-69cf-4a01-d8ab" name="Commander Upgrades" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="1887-dedc-7616-f267" name="Active Strain" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2e0f-4a64-4a9c-6276" name="Infection" hidden="false" targetId="4268-4218-10f7-cf2b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9f2-03fc-f8bd-e920" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="10.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4bf2-3ae9-af11-6015" name="Flamethrower" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="84d1-e544-0b01-7d5c" name="Flamethrower" hidden="false" targetId="7e34-eb95-dd59-2646" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="efce-eefa-45ca-505c" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Blast (2D3)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="7017-192c-5552-fe10" name="Volatile" hidden="false" targetId="cbee-7ff5-6692-c18b" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Volatile (3+)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="c22f-8845-6efa-4962" name="Saturation" hidden="false" targetId="6f83-e6a9-c707-79a5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="716e-2acb-5257-cc7a" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d5a-fe6c-59f8-673f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="25.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c0b1-215a-d3b6-6973" name="Grenade Launcher" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d51d-1ba9-71f9-8bc0" name="Blast (x)" hidden="false" targetId="b342-c697-bc22-5b9d" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Blast (D3)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="2f43-0c42-5725-8953" name="Grenade Launcher" hidden="false" targetId="7025-759c-b25c-fd91" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f74-19e4-59fa-077d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="10.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c95d-3efe-2d71-37ca" name="Heavy Laser Rifle" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="10fc-b515-492b-8d64" name="Heavy Laser Rifle" hidden="false" targetId="3026-8218-0a3c-ce8a" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95a3-9e86-6fa4-9d1d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="10.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="88a7-7241-d78f-acd4" name="HMG" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="1826-34ae-af38-834d" name="Suppressive Fire (x)" hidden="false" targetId="cb19-f40b-1721-d0f0" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="name" value="Suppressive Fire (1)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="d94a-1ee4-1651-4695" name="HMG" hidden="false" targetId="c062-706e-88e7-b2d0" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c2e-6c1e-a661-43c0" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="25.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="8076-f7f4-ddf3-0822" name="Laser Pistol" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="9631-37a5-ad5a-3e53" name="Laser Pistol" hidden="false" targetId="cbd4-1d65-a200-7bc9" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="919f-0762-3d51-a90a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="2.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0825-babe-d0dd-533c" name="Laser Rifle" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="30e0-7fe8-ac19-ace2" name="Laser Rifle" hidden="false" targetId="4b75-1c30-3c03-d7a2" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37fe-6bc7-89be-51db" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="5.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="49af-95fb-f993-513c" name="Thermal Rifle" book="Warpath: Firefight Rulebook" page="143" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="82e5-4e3d-d15f-a607" name="Thermal Rifle" hidden="false" targetId="f525-f9bd-c412-16d4" type="profile">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="fd4e-c1c4-9ced-7256" name="Anti-Tank" hidden="false" targetId="f8f3-271f-9d1f-0ad5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="c58a-73b5-64d1-0c9b" name="Slow Reload" hidden="false" targetId="8599-bc1a-b5cd-88b5" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16b4-ca53-a0bd-001f" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="20.0"/>
+            <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="1f2f-0a45-c978-c515" name="Explosive Payload" book="Warpath: Firefight Rulebook" page="134" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Instead of transporting troops, you may use some or all of a Vehicle’s Transport capacity for explosives. A Vehicle carrying an Explosive Payloadwill always explode when destroyed. Each batch of explosives on board increases the blast radius by D3&quot; (this may take it beyond the 6&quot; maximum), and adds 1 to the number of hits inflicted.
+A Vehicle with this rule may spend a short Action to detonate itself – assume that the damage exceeded its Resilience by D3. This Vehicle may also be fired upon by friendly troops.
+A vehicle with this rule also gains the Volatile (2+) special rule. If it has this special rule twice it instead has the Volatile (3+) special rule.</description>
+    </rule>
+    <rule id="4268-4218-10f7-cf2b" name="Infection" book="Warpath: Firefight Rulebook" page="135" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit carries an active strain of the Plague virus, and will infect units that it comes into contact with, potentially turning them into ready-made reinforcements.
+This rule allows the player to score extra VPs when using the Infection Secondary Objective.
+The rule has no effect against any Robotic or Marauder units.</description>
+    </rule>
+    <rule id="c396-97db-37df-e2d0" name="Unstable" book="Warpath: Firefight Rulebook" page="135" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This unit is so biologically unstable that it may explode in a shower of viscera. Whenever a model with this rule is destroyed, it explodes in the same way as a Vehicle, with a blast radius of 3&quot;. The blast will only damage non-Plague units, but anything destroyed by it will be subject to the Infectionrule as if they had been destroyed in Assault.</description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="7e34-eb95-dd59-2646" name="Flamethrower" book="Warpath: Firefight Rulebook" page="143" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="9&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="1"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Blast (2D3), Saturation, Slow Reload, Volatile (3+)"/>
+      </characteristics>
+    </profile>
+    <profile id="7025-759c-b25c-fd91" name="Grenade Launcher" book="Warpath: Firefight Rulebook" page="143" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="18&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Blast (D3)"/>
+      </characteristics>
+    </profile>
+    <profile id="3026-8218-0a3c-ce8a" name="Heavy Laser Rifle" book="Warpath: Firefight Rulebook" page="143" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="18&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="1"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="c062-706e-88e7-b2d0" name="HMG" book="Warpath: Firefight Rulebook" page="143" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="28&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="3"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Suppressive Fire (1)"/>
+      </characteristics>
+    </profile>
+    <profile id="cbd4-1d65-a200-7bc9" name="Laser Pistol" book="Warpath: Firefight Rulebook" page="143" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="9&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="4b75-1c30-3c03-d7a2" name="Laser Rifle" book="Warpath: Firefight Rulebook" page="143" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="18&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="f525-f9bd-c412-16d4" name="Thermal Rifle" book="Warpath: Firefight Rulebook" page="143" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="16&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="5"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Anti-Tank, Slow Reload"/>
+      </characteristics>
+    </profile>
+    <profile id="a6fd-d2ca-f07e-8275" name="Teeth and Claws" book="Warpath: Firefight Rulebook" page="" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="2"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="48dd-c451-8a36-d7c0" name="Rifles" book="Warpath: Firefight Rulebook" page="" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="18&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="578b-294b-4f0d-0d2a" name="Mortar" book="Warpath: Firefight Rulebook" page="" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="12-40&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Blast (D6), Heavy Firepower, Indirect, Slow Reload, Suppressive Fire (2)"/>
+      </characteristics>
+    </profile>
+    <profile id="6127-81c3-1606-9b17" name="Beaks and Claws" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="2"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="6019-464a-6a18-1a2a" name="Rotary Cannon" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="24&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="4"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="1"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Suppressive Fire (1)"/>
+      </characteristics>
+    </profile>
+    <profile id="c453-852c-1ec5-12fb" name="Laser Cannon" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="40&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="5"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Anti-Tank, Heavy Firepower, Slow Reload"/>
+      </characteristics>
+    </profile>
+    <profile id="80a1-1900-d721-1b7c" name="Missile Launcher" book="Warpath: Firefight Rulebook" page="" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="6-32&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="3"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Blast (D3+1), Heavy Firepower, Slow Reload"/>
+      </characteristics>
+    </profile>
+    <profile id="c133-be41-6787-3ba4" name="Assault Weaponry" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="99a0-8b63-4c20-8b0d" name="Autocannon" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="36&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="2"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="1"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Heavy Firepower, Suppressive Fire (1)"/>
+      </characteristics>
+    </profile>
+    <profile id="a89f-a4be-4a03-7ed7" name="Polaris Cannon" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="48&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="6"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Anti-Tank, Slow Reload"/>
+      </characteristics>
+    </profile>
+    <profile id="4c11-f14f-f2de-68ee" name="Heavy Flamethrower" book="Warpath: Firefight Rulebook" page="" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="12&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="2"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Blast (2D3+1), Saturation, Slow Reload, Volatile (2+)"/>
+      </characteristics>
+    </profile>
+    <profile id="a797-651b-7894-d23d" name="Chainsaw" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="A"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="2"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="1"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="5649-10ea-193c-85bf" name="Heavy Burst Laser" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="28&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="3"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="2"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Suppressive Fire (1)"/>
+      </characteristics>
+    </profile>
+    <profile id="892c-2415-b6e0-079b" name="Heavy Autocannon" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="12-36&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="4"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="2"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Suppressive Fire (2)"/>
+      </characteristics>
+    </profile>
+    <profile id="032b-5caf-3e82-23b6" name="Heavy Laser Cannon" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="12-40&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="1"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="5"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="Anti-Tank, Slow Reload"/>
+      </characteristics>
+    </profile>
+    <profile id="88f8-fb7d-b060-5d40" name="Laser Rifles" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="18&quot;"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="4"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="-"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+    <profile id="0567-272d-79b4-d007" name="Assault" book="Warpath: Firefight Rulebook" hidden="false" profileTypeId="6f7a-f8d6-ab6a-df58" profileTypeName="Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Range" characteristicTypeId="8bb9-64fd-8460-7663" value="R"/>
+        <characteristic name="Dice" characteristicTypeId="54fa-c32f-5bc5-ae7c" value="6"/>
+        <characteristic name="AP" characteristicTypeId="b494-0fb7-bcca-f3b4" value="3"/>
+        <characteristic name="Special" characteristicTypeId="c5f2-8050-3ee7-5f1d" value="-"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
