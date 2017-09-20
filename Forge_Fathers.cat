@@ -3001,6 +3001,7 @@
                   <entryLinks/>
                   <costs>
                     <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
+                    <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -4448,7 +4449,10 @@
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fc1-14b5-0683-24b4" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a9c-2b90-5138-eb6c" type="min"/>
+                  </constraints>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -4545,7 +4549,10 @@
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cff0-7a3e-a8fb-0647" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e828-b446-bc5c-dc1f" type="max"/>
+                  </constraints>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -4648,7 +4655,10 @@
                     </infoLink>
                   </infoLinks>
                   <modifiers/>
-                  <constraints/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa75-7794-a2ad-a8e2" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f3f-7ea0-b8b6-c5b9" type="max"/>
+                  </constraints>
                   <categoryLinks/>
                   <selectionEntries/>
                   <selectionEntryGroups/>
@@ -4674,7 +4684,7 @@
       <entryLinks/>
       <costs>
         <cost name="★ HVA" costTypeId="92e4-aedb-f7f3-fbda" value="0.0"/>
-        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="0.0"/>
+        <cost name="pts" costTypeId="5190-8e25-ff8e-fa19" value="120.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bdb9-ab6e-7192-616c" name="Forge Lord" book="Warpath: Firefight Rulebook" page="112" hidden="false" collective="false" type="unit">
